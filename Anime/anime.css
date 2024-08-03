@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: monospace;
+    background-size: cover;
+  
+    
+   
+} 
+.video{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    opacity: 90%;
+
+
+}
+ul{
+    list-style: none;
+
+   
+}
+ul li{
+    display: inline-block;
+    position: relative;
+    
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 20px 25px;
+    text-align: center;
+    font-size: 40px;
+    display: block;
+   
+                         
+}
+ul li a:hover{
+    opacity: 20%;
+    transition: 0.3s ease-in-out;
+}
+.content{
+    float: right;
+   
+   
+}
+ul .logo a{
+    color: red;
+    font-size: 60px;
+    transform: translateX(-1500px);
+    font-weight: bolder;
+}
+ul .logo2 a{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    transform: translateX(-1550px);
+    font-weight: bolder;
+   
+}
+.content .para{
+    position: fixed;
+    left: 50px;
+ bottom: 100px;
+ align-items: center;
+ justify-content: center;
+
+}
+.content .para h1{
+    color: red;
+    font-size: 65px;
+    font-weight: bolder;
+    font-family: cursive;
+}
+.content .para  p{
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    font-weight: lighter;
+    font-family: cursive;
+}
